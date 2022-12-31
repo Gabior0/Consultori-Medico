@@ -1,10 +1,10 @@
 package med.voll.api.controller;
 
 import jakarta.validation.Valid;
-import med.voll.api.agendamento.Agendamento;
-import med.voll.api.agendamento.AgendamentoRepository;
-import med.voll.api.agendamento.DadosAgendamento;
-import med.voll.api.agendamento.DadosCancelamentoAegendamento;
+import med.voll.api.domain.agendamento.Agendamento;
+import med.voll.api.domain.agendamento.AgendamentoRepository;
+import med.voll.api.domain.agendamento.DadosAgendamento;
+import med.voll.api.domain.agendamento.DadosCancelamentoAegendamento;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
